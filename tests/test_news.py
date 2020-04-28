@@ -9,7 +9,7 @@ class TestNews(unittest.TestCase):
         '''
         Test class to run before other tests
         '''
-        self.new_news_source = News('abc','liz','https://abc.com/','abc news is the best source', 'usa', 'general', 'abc-news')
+        self.new_news_source = News('abc','adrian','https://abc.com/','abc news is the best source', 'usa', 'general', 'abc-news')
     
     def test_instance(self):
         '''
@@ -20,7 +20,7 @@ class TestNews(unittest.TestCase):
         '''
         '''
         self.assertEquals(self.new_news_source.name,'abc')
-        self.assertEquals(self.new_news_source.author,'liz')
+        self.assertEquals(self.new_news_source.author,'adrian')
         self.assertEquals(self.new_news_source.url,'https://abc.com/')
         self.assertEquals(self.new_news_source.description,'abc news is the best source')
         self.assertEquals(self.new_news_source.country,'usa')
