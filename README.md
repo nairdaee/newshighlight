@@ -7,7 +7,7 @@ Created on April 28 , 2020
 
 ### Description
 
-Newshighlight si an application that allows its users to view local and global news source using a free News API 
+Newshighlight is an application that allows its users to view local and global news source using a free News API 
 
 
 ### Technologies used
